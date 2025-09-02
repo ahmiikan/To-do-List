@@ -1,12 +1,72 @@
-# React + Vite
+# 📝 React Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and reusable **React Todo List** application built with **Bootstrap** for styling.  
+This project demonstrates **React component architecture**, **props passing**, and **component reusability**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Add new tasks  
+- Delete existing tasks  
+- Mark tasks as completed  
+- Clean and responsive UI  
+- Built with **React + Bootstrap**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- **React** (Vite for fast build)
+- **Bootstrap 5**
+- **CSS** (for custom styling)
+
+---
+
+## 📂 Project Structure
+```
+react-todo-app/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── TodoItem.jsx      # Individual todo item
+│   │   └── TodoList.jsx      # List of todo items
+│   ├── App.jsx               # Main app component
+│   ├── App.css               # App-specific styles
+│   └── main.jsx              # Entry point
+├── index.html
+└── package.json
+```
+
+---
+
+## ⚙️ Installation and Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/ahmiikan/To-do-List
+cd react-todo-app
+```
+
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Start the development server
+```bash
+npm run dev
+```
+
+---
+
+
+## 🧠 Learning Outcomes
+- Understand **React component architecture**
+- Apply **best practices for props passing**
+- Style React apps using **Bootstrap and CSS**
+- Build and reuse functional components effectively
+
+---
+
+## 📝 License
+This project is licensed under the **MIT License**.  
+Feel free to modify and use it as you wish.
